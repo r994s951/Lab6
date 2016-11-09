@@ -1,0 +1,11 @@
+isEmpty, addBack, size, and both removeFront and removeBack do not work.
+
+isEmpty does not return false if there is an item in the list.
+
+addBack does not correctly add to the back of the list but instead to the front.
+
+removeBack does not work correctly.
+
+removeFront does not work correctly.
+
+Because of this we discover size doesn't decrement after a remove but work for increments.
